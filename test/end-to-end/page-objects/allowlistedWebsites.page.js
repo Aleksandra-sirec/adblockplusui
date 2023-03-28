@@ -30,7 +30,7 @@ class AllowlistedWebsitesPage extends BasePage
   get _allowlistedWebsitesTabButton()
   {
     return $("//a[contains(@data-i18n, 'options_tab_allowlist')" +
-        "and text()='QA task: Aleksandra Sirec']");
+        "and text()='Allowlisted websites']");
   }
 
   async init()
